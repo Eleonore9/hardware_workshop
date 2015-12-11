@@ -31,6 +31,24 @@ Arduino makes it accessible to programme microcontrollers. It is a good way to g
 
 ## Install
 
+### ESPRUINO
+
+1) Plugging the board:
+
+It’s all in http://www.espruino.com/Quick+Start, but the summary is:
+
+* For Mac OS X and Chromebook users: just plug the board
+
+* For Linux users: make sure you’re part of the plugdev group by typing `groups` in your terminal, if you aren’t add yourself with the command `sudo adduser $USER plugdev`
+
+
+2) Coding for Espruino:
+
+The easier (and cross platforms) solution is to install the “[Espruino Web IDE](https://chrome.google.com/webstore/detail/espruino-web-ide/bleoifhkdalbjfbobjackfdifdneehpo)” Chrome Web App from Chrome web store: 
+
+
+### ARDUINO
+
 To avoid installation issue (aaah, software!) we'll use the CodeBender platform.
 You can create an account [here](https://codebender.cc/register/)!
 CodeBender is a cross-platform web based editor for microcontroller boards. It helps you write, compile and upload code to your board.
